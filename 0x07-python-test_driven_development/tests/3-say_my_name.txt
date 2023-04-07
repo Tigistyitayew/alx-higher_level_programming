@@ -14,16 +14,16 @@ Now use it:
 	My name is Elisabeth Holberton
 
 	>>> say_my_name("Elisabeth")
-	My name is Elisabeth
+	My name is Elisabeth 
 
 	>>> say_my_name("", "Holberton")
 	My name is  Holberton
 
 	>>> say_my_name("", "")
-	My name is
+	My name is  
 
 	>>> say_my_name("")
-	My name is
+	My name is  
 
 	>>> say_my_name(98, "Holberton")
 	Traceback (most recent call last):
