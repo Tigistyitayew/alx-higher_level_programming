@@ -1,11 +1,11 @@
-#!/bin/usr/python3
-"""
-Module for 0-add.py
-"""
+#!/usr/bin/python3
+from add_0 import add
 
 
-def add(a: float, b: float) -> float:
-    """
-    Function that adds two floats
-    """
-    return a + b
+def main():
+    a = 1
+    b = 2
+    print("{} + {} = {}".format(a, b, add(a, b)))
+
+if __name__ == "__main__":
+    main()
