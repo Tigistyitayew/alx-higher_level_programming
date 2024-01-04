@@ -1,10 +1,16 @@
 #!/usr/bin/python3
-from sys import argv
-if __name__ = "__main__":
-    i = 1
-    args = len(argv) - 1
-    print(f"{args} {'argument' if args == 1 else 'arguments'}", end="")
-    print(f"{'.' if args == 0 else ':'}")
-    while (i <= args):
-        print(f"{i}: {argv[i]}")
-        i += 1
+# 2-args.py
+
+if __name__ == "__main__":
+
+    import sys
+
+    count = len(sys.argv) - 1
+    if count == 0:
+        print("0 arguments.")
+    elif count == 1:
+        print("1 argument:")
+    else:
+        print("{} arguments:".format(count))
+    for i in range(count):
+        print("{}: {}".format(i + 1, sys.argv[i + 1]))

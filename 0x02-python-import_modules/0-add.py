@@ -1,10 +1,11 @@
-#!/usr/bin/python3
-def add(a, b):
-    """My addition function
-    Args:
-        a: first integer
-        b: second integer
-    Returns:
-        The return value. a + b
+#!/bin/usr/python3
+"""
+Module for 0-add.py
+"""
+
+
+def add(a: float, b: float) -> float:
     """
-    return (a + b)
+    Function that adds two floats
+    """
+    return a + b
